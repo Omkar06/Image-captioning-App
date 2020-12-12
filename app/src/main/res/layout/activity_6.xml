@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="25dp"
+    android:background="@drawable/sbg"
+
+    tools:context=".Activity6">
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/rounded_button"
+        android:paddingBottom="25dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/capture_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Capture "
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Save to Gallery "
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:padding="20dp" />
+
+</LinearLayout>
